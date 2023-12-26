@@ -5,7 +5,7 @@ import Cookies from "js-cookie";
 import ReactWhatsapp from "react-whatsapp";
 import { WhatsappShareButton } from "react-share";
 import { ToastContainer, toast } from "react-toastify";
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/logo/Logo-1.png";
 const headers = {
   "Content-Type": "application/json",
 };
@@ -96,7 +96,7 @@ export default class Footer extends Component {
                     />
                     <div class="text-white iq-mt-25 ">
                       Whether you're a seasoned investor or a newcomer to the
-                      world of trading, JEXI Exchange is here to elevate your
+                      world of trading, Royalbit Exchange Exchange is here to elevate your
                       experience. Join us on this journey of financial
                       discovery, where every trade is a step towards your
                       financial goals.
@@ -272,7 +272,7 @@ export default class Footer extends Component {
               <div class="row">
                 <div class="col-sm-6">
                   <div class="iq-copyright iq-mt-10 text-white">
-                    Copyright @ {new Date().getFullYear().toString()} JEXI Exchange All Rights Reserved.
+                    Copyright @ {new Date().getFullYear().toString()} Royalbit Exchange Exchange All Rights Reserved.
                   </div>
                 </div>
                 <div class="col-sm-6">

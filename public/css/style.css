@@ -156,8 +156,8 @@ a.wallet_address {
 }
 /*------------- dark theme -------------*/
 .crypt-dark {
-  /* background: #080e15; */
-  background: rgb(4 47 46);
+  background: #0f0f36;
+  /* background: white!important; */
   /* background: linear-gradient(90deg, rgba(56,160,161,1) 0%, rgba(40,101,129,1) 35%); */
   /* background: url(../images/services-bg-1.png), #000; */
 }
@@ -800,7 +800,7 @@ p.para-step {
 }
 .crypt-dark .crypt-header {
   /* box-shadow: none; */
-  background: rgb(19 78 74);
+  background: 	#0f0f36;
   position: fixed;
   top: 0;
   left: 0;
@@ -5320,7 +5320,7 @@ td .btn-primary {
 } */
 
 .iq-footer-2 {
-  background: rgb(19 78 74);
+  background: #0f0f36;
 }
 .iq-bg-fixed {
   background-color: rgba(0, 0, 0, 0);

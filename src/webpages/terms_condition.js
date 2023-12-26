@@ -69,7 +69,7 @@ export default class terms_condition extends Component {
 
             {/* <h5 class="mt-3">Last revised: 30 March, 2021</h5> */}
             <div className="terms-and-conditions-container">
-              <h1 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>Welcome to Jexi Exchange</h1>
+              <h1 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>Welcome to Royalbit Exchange</h1>
               <p style={{ margin: 5 }}>
                 By accessing or using our cryptocurrency exchange services, you agree to comply with and be bound
                 by the following Terms and Conditions. If you do not agree with these terms, please refrain from using our services.
@@ -78,7 +78,7 @@ export default class terms_condition extends Component {
               <section>
                 <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }} className="History text-xs">1. Acceptance of Terms</h2>
                 <p style={{ margin: 5 }}>
-                  By using Jexi Exchange, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
+                  By using Royalbit Exchange, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
                   We reserve the right to modify or update these terms at any time, and it is your responsibility to review them periodically.
                 </p>
               </section>
@@ -86,7 +86,7 @@ export default class terms_condition extends Component {
               <section>
                 <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>2. User Registration</h2>
                 <p style={{ margin: 5 }}>
-                  To use certain features of Jexi Exchange, you may be required to register for an account. You agree to provide accurate,
+                  To use certain features of Royalbit Exchange, you may be required to register for an account. You agree to provide accurate,
                   current, and complete information during the registration process. You are responsible for maintaining the confidentiality
                   of your account credentials.
                 </p>
@@ -95,7 +95,7 @@ export default class terms_condition extends Component {
               <section>
                 <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>3. Eligibility</h2>
                 <p style={{ margin: 5 }}>
-                  You must be at least 18 years old or the legal age in your jurisdiction to use Jexi Exchange. By accessing our services,
+                  You must be at least 18 years old or the legal age in your jurisdiction to use Royalbit Exchange. By accessing our services,
                   you confirm that you meet the eligibility requirements.
                 </p>
               </section>
@@ -108,7 +108,7 @@ export default class terms_condition extends Component {
                 <ul style={{ margin: 5 }}>
                   <li>Violating any applicable laws or regulations.</li>
                   <li>Unauthorized access to our systems or networks.</li>
-                  <li>Interfering with the proper functioning of Jexi Exchange.</li>
+                  <li>Interfering with the proper functioning of Royalbit Exchange.</li>
                   <li>Engaging in any form of market manipulation or fraudulent activities.</li>
                 </ul>
               </section>
@@ -124,7 +124,7 @@ export default class terms_condition extends Component {
               <section>
                 <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>6. Transactions and Fees</h2>
                 <p style={{ margin: 5 }}>
-                  Jexi Exchange facilitates cryptocurrency transactions. You agree to pay any applicable fees associated with your transactions.
+                  Royalbit Exchange facilitates cryptocurrency transactions. You agree to pay any applicable fees associated with your transactions.
                   We reserve the right to modify our fee structure at any time.
                 </p>
               </section>
@@ -132,7 +132,7 @@ export default class terms_condition extends Component {
               <section>
                 <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>7. Intellectual Property</h2>
                 <p style={{ margin: 5 }}>
-                  All content, trademarks, and intellectual property on Jexi Exchange are the property of Jexi Exchange. You agree not to
+                  All content, trademarks, and intellectual property on Royalbit Exchange are the property of Royalbit Exchange. You agree not to
                   reproduce, distribute, or create derivative works without our express consent.
                 </p>
               </section>
@@ -140,7 +140,7 @@ export default class terms_condition extends Component {
               <section>
                 <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>8. Termination</h2>
                 <p style={{ margin: 5 }}>
-                  We reserve the right to suspend or terminate your access to Jexi Exchange at our discretion, without notice, for any reason,
+                  We reserve the right to suspend or terminate your access to Royalbit Exchange at our discretion, without notice, for any reason,
                   including violation of these Terms and Conditions.
                 </p>
               </section>
@@ -148,7 +148,7 @@ export default class terms_condition extends Component {
               <section>
                 <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>9. Disclaimer of Warranties</h2>
                 <p style={{ margin: 5 }}>
-                  Jexi Exchange is provided "as is" without any warranty of any kind. We do not guarantee the accuracy, completeness, or
+                  Royalbit Exchange is provided "as is" without any warranty of any kind. We do not guarantee the accuracy, completeness, or
                   reliability of any information on our platform.
                 </p>
               </section>

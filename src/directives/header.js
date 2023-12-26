@@ -4,7 +4,7 @@ import config from "../config/config";
 import Cookies from "js-cookie";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/logo/Logo-1.png";
 
 const headers = {
   "Content-Type": "application/json",

@@ -306,7 +306,7 @@ export default class extends Component {
           <div className="flex flex-wrap p-4">
             <div className="xl:w-3/5 lg:w-1/2 w-full lg:sl-py-20 md:sl-py-8 sl-py-4  lg:sl-order-1- sl-order-2-">
               <h1 className="xl:text-4xl md:text-3xl text-2xl font-bold">Worldwide Leading Digital Coin Trading Website</h1>
-              <p className="md:text-lg text-base sl-pt-2 sl-pb-6">JEXI: A Global Era Trading Platform for <br />Collecting Various Coins with Fiat Currency
+              <p className="md:text-lg text-base sl-pt-2 sl-pb-6">Royalbit Exchange: A Global Era Trading Platform for <br />Collecting Various Coins with Fiat Currency
               </p>
               <button className="inline-flex sl-mr-2 items-center uppercase md:text-base text-sm font-medium sl-px-4 sl-py-2 bg-teal-400 rounded-sm hover:bg-teal-700 sl-animated-lg">sing up for free <img className="w-4 sl-ml-2" src={rightArrow} alt="" /></button>
               <button className="inline-flex items-center uppercase md:text-base text-sm font-medium sl-px-4 sl-py-2 bg-neutral-800 rounded-sm hover:bg-neutral-950 sl-animated-lg">market <img className="w-4 sl-ml-2" src={rightArrow} alt="" /></button>
@@ -590,9 +590,9 @@ export default class extends Component {
               <div className="relative flex justify-end md:h-80 h-60 border border-teal-400 rounded-3xl md:sl-px-0 sl-px-3 md:sl-py-8 sl-py-4">
                 <div className="md:absolute left-0 bottom-16"><img src={item2} alt="" className="md:w-36 w-24" /></div>
                 <div className="w-60">
-                  <h3 className="md:text-xl text-lg font-semibold">JEXI Club</h3>
+                  <h3 className="md:text-xl text-lg font-semibold">Royalbit Exchange Club</h3>
                   <span className="md:text-xl text-lg font-medium text-neutral-400">Discover the privileges</span>
-                  <p className="text-sm text-neutral-400 md:mt-4">Discover endless opportunities and start earning on JEXI Club mobile app by staking fan and social tokens.</p>
+                  <p className="text-sm text-neutral-400 md:mt-4">Discover endless opportunities and start earning on Royalbit Exchange Club mobile app by staking fan and social tokens.</p>
                 </div>
               </div>
             </div>
@@ -834,7 +834,7 @@ export default class extends Component {
         </section>
 
         <section className="sl-container sl-pt-32">
-          <h2 className="text-center xl:text-5xl md:text-3xl text-2xl font-medium">Why <span className="text-teal-400">JEXI?</span></h2>
+          <h2 className="text-center xl:text-5xl md:text-3xl text-2xl font-medium">Why <span className="text-teal-400">Royalbit Exchange?</span></h2>
           <div className="w-full flex flex-wrap xl:justify-between justify-evenly mt-24">
             <div className="group flex flex-col items-center justify-center w-64 md:h-[28rem] h-80 xl:sl-px-8 md:sl-px-6 sl-px-4 rounded-3xl cursor-pointer hover:bg-teal-400 hover:xl:-translate-y-20 hover:md:-translate-y-12 hover:-translate-y-10 sl-animated-xl">
               <div className="md:w-28 w-24 md:h-28 h-24 lg:sl-mb-12 sm:sl-mb-9 sl-mb-6"><img src={wh1} alt="" /></div>
@@ -869,7 +869,7 @@ export default class extends Component {
               <div className="rounded-3xl bg-neutral-900/20 sl-px-4 sl-py-6">
                 <span className="text-sm">01/</span>
                 <h3 className="text-lg font-semibold sm:sl-pt-2 sl-pt-1 sm:sl-pb-4 sl-pb-2">Exchanges</h3>
-                <p className="text-sm sm:leading-7 leading-normal">Jexi Exchange is now live, ushering in a new era of cryptocurrency trading. With a user-friendly interface and robust security measures, it offers a seamless experience for buying and selling digital assets. The platform`s advanced tools and real-time market data empower users to make informed decisions. Jexi Exchange is set to redefine the crypto trading landscape with its commitment to transparency and reliability. Welcome to a new age of secure and efficient cryptocurrency exchange.</p>
+                <p className="text-sm sm:leading-7 leading-normal">Royalbit Exchange Exchange is now live, ushering in a new era of cryptocurrency trading. With a user-friendly interface and robust security measures, it offers a seamless experience for buying and selling digital assets. The platform`s advanced tools and real-time market data empower users to make informed decisions. Royalbit Exchange Exchange is set to redefine the crypto trading landscape with its commitment to transparency and reliability. Welcome to a new age of secure and efficient cryptocurrency exchange.</p>
               </div>
             </div>
           </div>
@@ -878,7 +878,7 @@ export default class extends Component {
               <div className="rounded-3xl bg-neutral-900/20 sl-px-4 sl-py-6">
                 <span className="text-sm">02/</span>
                 <h3 className="text-lg font-semibold sm:sl-pt-2 sl-pt-1 sm:sl-pb-4 sl-pb-2">Launchpad</h3>
-                <p className="text-sm sm:leading-7 leading-normal">Jexi is gearing up to launch its highly anticipated Launchpad, providing users with access to upcoming token launches and ICOs. This strategic move aims to simplify the investment process for users, offering a secure platform to discover and participate in innovative blockchain projects. As Jexi diversifies its offerings, the Launchpad emerges as a pivotal feature, contributing to the platform`s commitment to fostering growth and innovation in the cryptocurrency landscape. Stay tuned for exciting opportunities in the evolving crypto space with Jexi`s upcoming Launchpad.
+                <p className="text-sm sm:leading-7 leading-normal">Royalbit Exchange is gearing up to launch its highly anticipated Launchpad, providing users with access to upcoming token launches and ICOs. This strategic move aims to simplify the investment process for users, offering a secure platform to discover and participate in innovative blockchain projects. As Royalbit Exchange diversifies its offerings, the Launchpad emerges as a pivotal feature, contributing to the platform`s commitment to fostering growth and innovation in the cryptocurrency landscape. Stay tuned for exciting opportunities in the evolving crypto space with Royalbit Exchange`s upcoming Launchpad.
                 </p>
               </div>
             </div>
@@ -890,7 +890,7 @@ export default class extends Component {
               <div className="rounded-3xl bg-neutral-900/20 sl-px-4 sl-py-6">
                 <span className="text-sm">03/</span>
                 <h3 className="text-lg font-semibold sm:sl-pt-2 sl-pt-1 sm:sl-pb-4 sl-pb-2">Marketplaces</h3>
-                <p className="text-sm sm:leading-7 leading-normal">Jexi Exchange is set to unveil a groundbreaking NFT marketplace with a distinctive focus on low gas fees, ensuring that anyone can seamlessly list their NFTs and earn rewards. This initiative reaffirms Jexi Exchange`s commitment to accessibility and affordability, providing artists and creators a unique platform to showcase their digital assets. Prepare for a transformative NFT experience within the Jexi Exchange ecosystem, where innovation converges with cost-effectiveness, opening up exciting opportunities for the NFT community.
+                <p className="text-sm sm:leading-7 leading-normal">Royalbit Exchange Exchange is set to unveil a groundbreaking NFT marketplace with a distinctive focus on low gas fees, ensuring that anyone can seamlessly list their NFTs and earn rewards. This initiative reaffirms Royalbit Exchange Exchange`s commitment to accessibility and affordability, providing artists and creators a unique platform to showcase their digital assets. Prepare for a transformative NFT experience within the Royalbit Exchange Exchange ecosystem, where innovation converges with cost-effectiveness, opening up exciting opportunities for the NFT community.
                 </p>
               </div>
             </div>
@@ -900,7 +900,7 @@ export default class extends Component {
               <div className="rounded-3xl bg-neutral-900/20 sl-px-4 sl-py-6">
                 <span className="text-sm">04/</span>
                 <h3 className="text-lg font-semibold sm:sl-pt-2 sl-pt-1 sm:sl-pb-4 sl-pb-2">NFT De-Fi</h3>
-                <p className="text-sm sm:leading-7 leading-normal">Get ready for a game-changer! Jexi Exchange is gearing up to launch an NFT De-Fi project that`s set to revolutionize the crypto landscape. Investors, seize the opportunity to ride the wave of innovation with Jexi – where NFTs meet decentralized finance for a truly groundbreaking experience!</p>
+                <p className="text-sm sm:leading-7 leading-normal">Get ready for a game-changer! Royalbit Exchange Exchange is gearing up to launch an NFT De-Fi project that`s set to revolutionize the crypto landscape. Investors, seize the opportunity to ride the wave of innovation with Royalbit Exchange – where NFTs meet decentralized finance for a truly groundbreaking experience!</p>
               </div>
             </div>
             <div className="md:sl-order-2- sl-order-1- xl:w-1/2 md:w-1/3 sl-px-2 sl-mb-4"><img src={gi3} alt="" className="xl:w-2/3 md:w-full w-1/2 xl:sl-ml-auto mx-auto" /></div>

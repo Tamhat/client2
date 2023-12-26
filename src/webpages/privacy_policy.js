@@ -72,17 +72,17 @@ export default class privacy_policy extends Component {
             </h1> */}
 
             <div className="privacy-policy-container">
-              <h1 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>Privacy Policy for Jexi Exchange</h1>
+              <h1 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>Privacy Policy for Royalbit Exchange Exchange</h1>
               <p style={{ margin: 5 }}>Last Updated: {new Date().getFullYear()}</p>
 
               <p style={{ margin: 5 }}>
-                Jexi Exchange ("us," "we," or "our") operates the website [www.jexiexchange.com] and provides
+              Royalbit Exchange Exchange ("us," "we," or "our") operates the website [www.jexiexchange.com] and provides
                 cryptocurrency exchange services. This Privacy Policy outlines our policies regarding the collection,
                 use, and disclosure of personal information when you use our services.
               </p>
 
               <p style={{ margin: 5 }}>
-                By accessing or using Jexi Exchange, you agree to the collection and use of information as described
+                By accessing or using Royalbit Exchange Exchange, you agree to the collection and use of information as described
                 in this Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not use our services.
               </p>
 
@@ -92,7 +92,7 @@ export default class privacy_policy extends Component {
               </p>
               <ol style={{ margin: 5 }}>
                 <li><strong>Personal Information:</strong> When you sign up for an account, we may collect your name, email address, phone number, and other necessary information for account creation and management.</li>
-                <li><strong>Transaction Information:</strong> We collect information related to your cryptocurrency transactions on Jexi Exchange, including wallet addresses, transaction amounts, and timestamps.</li>
+                <li><strong>Transaction Information:</strong> We collect information related to your cryptocurrency transactions on Royalbit Exchange Exchange, including wallet addresses, transaction amounts, and timestamps.</li>
                 <li><strong>Identity Verification:</strong> To comply with regulatory requirements, we may request additional information to verify your identity, such as government-issued identification documents.</li>
                 <li><strong>Log Data:</strong> We automatically collect information that your browser sends whenever you visit our website. This may include your IP address, browser type, browser version, and the pages you visit.</li>
               </ol>
