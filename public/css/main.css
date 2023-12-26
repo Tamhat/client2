@@ -1,0 +1,586 @@
+/*
+ * Globals
+ */
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Custom default button */
+.btn-default {
+  color: #fff;
+  text-shadow: none;
+  /* Prevent inheritence from `body` */
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.btn-outline-success:hover {
+  color: #fff;
+  /*background-color: #c69941!important;*/
+  background: linear-gradient(307deg, #c69941, transparent);
+  /*border-color: #fff!important;*/
+}
+/*
+ * Base structure
+ */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  /* background: url(../img/cover.jpg) no-repeat center center fixed; */
+  background-size: cover;
+  color: #fff;
+  background-color: #080e15;
+  /* text-align: center; */
+  font-family: "Quicksand";
+}
+
+#backgroundVideo {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  /* display: table; */
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+  /* background: rgba(48, 53, 70, 0.5);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);  */
+  background: #fff;
+}
+img.main_logo {
+  width: 130px;
+  position: relative;
+  left: 70px;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-masthead {
+  text-align: center;
+  display: block;
+}
+
+.nav-masthead .nav-link {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 20px;
+}
+
+.cover .btn-notify {
+  padding: 10px 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.cover-heading {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  color: #c69941 !important;
+  font-weight: 700;
+  font-family: Source Sans Pro;
+}
+
+.cover-copy {
+  max-width: 500px;
+  font-size: 1rem;
+  margin: 0 auto 3rem;
+}
+
+@media (min-width: 768px) {
+  .cover-heading {
+    font-size: 3.4rem;
+    letter-spacing: 5px;
+  }
+  .cover-copy {
+    font-size: 1.25rem;
+  }
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: #999;
+  /* IE8 proofing */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*
+ * Timer
+ */
+#timer {
+  min-height: 150px;
+}
+
+#timer div {
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  padding: 20px 10px;
+  min-height: 80px;
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+#timer span {
+  display: block;
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.6px;
+}
+
+#days {
+  font-size: 2rem;
+}
+
+#hours {
+  font-size: 2rem;
+}
+
+#minutes {
+  font-size: 2rem;
+}
+
+#seconds {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  #timer {
+    min-height: 150px;
+  }
+  #timer div {
+    padding: 0;
+    min-height: 100px;
+    width: 116px;
+    /*margin-bottom: 3rem;*/
+  }
+  #days {
+    font-size: 5rem;
+  }
+  #hours {
+    font-size: 5rem;
+  }
+  #minutes {
+    font-size: 5rem;
+  }
+  #seconds {
+    font-size: 3rem;
+  }
+}
+
+/*
+ * Affix and center
+ */
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+    /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 1060px;
+  }
+}
+
+/*Akash css start*/
+p.card-text {
+  color: #000;
+}
+h5.card-title {
+  color: #000;
+  font-size: 12px;
+}
+img.card-img-top {
+  position: absolute;
+  width: 50px;
+  top: 15px;
+  left: 20px;
+}
+img.card-img-top.eth {
+  top: 12px;
+  width: 35px;
+}
+section.crypto-live {
+  padding: 0px;
+}
+
+/*Navbar css start*/
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background: #202433 !important;
+}
+
+li.nav-item {
+  margin: 0px 15px;
+}
+a.nav-link.btn.btn-outline-success {
+  font-weight: 600;
+  border: 2px solid darkgoldenrod;
+  color: #c5973e;
+  border-radius: 0;
+  padding: 8px 20px;
+}
+/* h2.banner_heading {
+    margin-top: 85px;
+    margin-bottom: 40px;
+} */
+a.btn-outline-success.btn-token {
+  padding: 8px 20px;
+  border: 2px solid white;
+  color: white;
+  background: linear-gradient(307deg, #c69941, transparent);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 10px;
+}
+/*Navbar css end*/
+
+.assets_content {
+  margin-top: 100px;
+}
+.assets_content h2 {
+  font-size: 36px;
+}
+
+.cover-container {
+  margin-top: 100px;
+}
+img.platform-img {
+  width: 180px;
+  border-right: 1px solid #38a0a1;
+  padding-right: 25px;
+}
+span.pro-span {
+  padding: 0px 25px;
+  font-size: 24px;
+  color: white;
+}
+img.asset_image {
+  padding: 40px;
+  width: 100%;
+}
+
+ul.unorder-list {
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+  line-height: 2.2;
+  /* margin-top: 100px; */
+}
+
+i.fas.fa-check-circle {
+  margin: 0px 20px;
+  color: darkgoldenrod;
+}
+img.platform-imgs {
+  width: 180px;
+}
+ul.unorder-lists {
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+  line-height: 2.2;
+  margin-top: 100px;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  /* background: #202433; */
+  background: #151d2e;
+  display: block;
+  position: relative;
+  margin: 0px 0px 0px 0px;
+}
+
+.inner-footer {
+  /* width: 95%; */
+  margin: auto;
+  padding: 30px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-items {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: left;
+}
+
+.footer-items p {
+  font-size: 16px;
+  /* text-align: justify; */
+  line-height: 25px;
+  color: #fff;
+}
+
+.footer-items h1 {
+  color: #fff;
+  text-align: left;
+}
+
+.border1 {
+  height: 3px;
+  margin-left: 1rem;
+  width: 40px;
+  border: 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(56, 160, 161, 1) 0%,
+    rgba(40, 101, 129, 1) 35%
+  );
+}
+
+.footer-items h3 {
+  color: #38a0a1;
+}
+
+ul {
+  /* list-style: none; */
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+ul a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+ul a:hover {
+  color: #ff9800;
+}
+
+ul li {
+  margin: 10px 0;
+  /* height: 25px; */
+}
+
+li i {
+  margin-right: 20px;
+}
+
+.social-media {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.footer-items h3 {
+  font-size: 20px;
+}
+.footer-items ul {
+  padding: 0;
+}
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media i {
+  color: #286581;
+  transition: 0.5s;
+  margin: 0;
+  padding-right: 15px;
+}
+
+.social-media i:hover {
+  transform: scale(1.5);
+}
+
+.footer-bottom {
+  padding: 10px;
+  background: #00121b;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+/*-------------------------------- Suraj Css ----------------------------*/
+
+.fa-check-circle:before {
+  content: "\f058";
+  filter: hue-rotate(125deg);
+}
+
+/* for tablet mode view */
+
+@media screen and (max-width: 1275px) {
+  .footer-items {
+    width: 50%;
+  }
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+  .footer-items {
+    width: 100%;
+  }
+  ul.unorder-list {
+    list-style: none;
+    text-align: left;
+    font-size: 17px;
+    line-height: 2.2;
+    margin-top: 100px;
+    padding: 0px;
+  }
+  ul.unorder-lists {
+    padding: 0px;
+    font-size: 15px;
+  }
+  i.fas.fa-check-circle {
+    margin: 0px 2px;
+    color: darkgoldenrod;
+  }
+  ul.navbar-nav.ms-auto.mb-3.mb-lg-3 {
+    position: relative;
+    left: -6px;
+  }
+  ul.navbar-nav.ms-auto.mb-3.mb-lg-3 li.nav-item {
+    margin: 15px 0px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer-items {
+    width: 100%;
+  }
+  ul.unorder-list {
+    list-style: none;
+    text-align: left;
+    font-size: 17px;
+    line-height: 2.2;
+    margin-top: 100px;
+    padding: 0px;
+  }
+  ul.unorder-lists {
+    padding: 0px;
+    font-size: 13px !important;
+  }
+  i.fas.fa-check-circle {
+    margin: 0px 2px;
+    color: darkgoldenrod;
+  }
+  ul.navbar-nav.ms-auto.mb-3.mb-lg-3 {
+    position: relative;
+    left: -6px;
+  }
+  ul.navbar-nav.ms-auto.mb-3.mb-lg-3 li.nav-item {
+    margin: 15px 0px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  i.fas.fa-check-circle {
+    margin: 0px 2px;
+    color: darkgoldenrod;
+  }
+  ul.unorder-list {
+    padding: 0px;
+  }
+  ul.unorder-lists {
+    padding: 0px;
+  }
+}
+/* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
+
+/* Thanks to Computer Conversations */
+/*Akash css end*/

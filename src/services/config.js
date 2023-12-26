@@ -1,0 +1,2 @@
+export const baseUrl = process.env.NODE_ENV === "production" ? "https://coin-app-backend-8ec053f4a6fe.herokuapp.com/api" : "https://coin-app-backend-8ec053f4a6fe.herokuapp.com/api"
+export const filebaseUrl = process.env.NODE_ENV === "production" ? "https://coin-app-backend-8ec053f4a6fe.herokuapp.com/uploads" : "https://coin-app-backend-8ec053f4a6fe.herokuapp.com/uploads"

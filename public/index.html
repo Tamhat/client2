@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="crypt-dark">
+  <meta charset="UTF-8">
+  <!-- <base href = "https://espsofttech.org/growfinex/" /> -->
+  <base href="%PUBLIC_URL%/"/>
+   <!-- <base href="https://bitmcx.com/exc/"/>    -->
+   <!-- <base href="https://growfinex.com/exc/"/>    -->
+  <!-- <base href = "http://localhost:3000/exc/" /> -->
+  <!-- <base href="https://platinx.exchange/exc/" />  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" id="description" content="">
+  <title>Jexi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap-css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="http://fonts.cdnfonts.com/css/linear-2" rel="stylesheet">
+  <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css" />
+  <link rel="stylesheet" href="css/fonts.css">
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"> -->
+  <link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css?family=Open+Sans:400,700%7CTitillium+Web:300,400,700,900%7CMontserrat:400,700">
+  <link href="images/logo-new.png" width="32px" height="32px" rel="icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&amp;display=swap"
+    media="print" onload="this.media='all'" />
+  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/font-awesome/css/all.min.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+   <!-- Google Fonts -->
+   <!-- <link rel="preconnect" href="https://fonts.googleapis.com/">
+   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin> -->
+  <script src="jquery/jquery-3.3.1.min"></script>
+  <!-- Global Mailform Output-->
+  <div class="snackbars" id="form-output-global"></div>
+  <!-- Javascript-->
+  <!-- <script src="https://espsofttech.org/sikkape-crypto-exchange/js/core.min.js"></script>
+   <script src="https://espsofttech.org/sikkape-crypto-exchange/js/script.js"></script> -->
+  <script src="https://widgets.bitcoin.com/widget.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://cryptorank.io/widget/marquee.js"></script>
+</head>
+
+<body class="crypt-dark">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script>
+
+    // loadDoc();
+
+    // function loadDoc() {
+    //   var xhttp = new XMLHttpRequest();
+    //   xhttp.onreadystatechange = function () {
+    //     if (this.readyState == 4 && this.status == 200) {
+
+    //       var res = JSON.parse(this.responseText);
+    //       document.getElementsByTagName('title')[0].innerHTML = res.response.title
+    //       document.getElementById('description').content = res.response.description
+
+    //       document.getElementById('favicon').href = 'http://13.126.99.244/cryptogpk-react/cryptogpk_backend/uploads/' + res.response.favicon
+    //     }
+    //   };
+    //   xhttp.open("GET", "http://13.126.99.244:7002/api/getwebcontent" + '?nocache=' + new Date().getTime(), true);
+    //   xhttp.send();
+    // }
+  </script>
+
+
+  <!-- <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+    }
+  </script> -->
+
+
+  <!-- <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+
+  <script>
+    $(document).ready(function () {
+      var navListItems = $('div.setup-panel div a'),
+        allWells = $('.setup-content'),
+        allNextBtn = $('.nextBtn'),
+        allPrevBtn = $('.prevBtn');
+
+      allWells.hide();
+
+      navListItems.click(function (e) {
+        e.preventDefault();
+        var $target = $($(this).attr('href')),
+          $item = $(this);
+
+        if (!$item.hasClass('disabled')) {
+          navListItems.removeClass('btn-primary active').addClass('btn-default');
+          $item.addClass('btn-primary active');
+          allWells.hide();
+          $target.show();
+          $target.find('input:eq(0)').focus();
+        }
+      });
+
+      allPrevBtn.click(function () {
+        var curStep = $(this).closest(".setup-content"),
+          curStepBtn = curStep.attr("id"),
+          prevStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().prev().children("a");
+
+        prevStepWizard.removeAttr('disabled').trigger('click');
+      });
+
+      allNextBtn.click(function () {
+        var curStep = $(this).closest(".setup-content"),
+          curStepBtn = curStep.attr("id"),
+          nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+          curInputs = curStep.find("input[type='text'],input[type='url']"),
+          isValid = true;
+
+        $(".form-group").removeClass("has-error");
+        for (var i = 0; i < curInputs.length; i++) {
+          if (!curInputs[i].validity.valid) {
+            isValid = false;
+            $(curInputs[i]).closest(".form-group").addClass("has-error");
+          }
+        }
+
+        if (isValid)
+          nextStepWizard.removeAttr('disabled').trigger('click');
+      });
+
+      $('div.setup-panel div a.btn-primary').trigger('click');
+    });
+  </script>
+
+
+  <script>
+    $(document).ready(function () {
+      $(".faqs-container .faq-singular:first-child").addClass("active").children(".faq-answer").slideDown();//Remove this line if you dont want the first item to be opened automatically.
+      $(".faq-question").on("click", function () {
+        if ($(this).parent().hasClass("active")) {
+          $(this).next().slideUp();
+          $(this).parent().removeClass("active");
+        }
+        else {
+          $(".faq-answer").slideUp();
+          $(".faq-singular").removeClass("active");
+          $(this).parent().addClass("active");
+          $(this).next().slideDown();
+        }
+      });
+    });
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-3NRE7KTZN7"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-3NRE7KTZN7');
+  </script>
+
+</body>
+<script src="js/jquery.slim.min.js?ver=1.1.0"></script>
+<script src="js/bootstrap.bundle.min.js?ver=1.1.0"></script>
+<script src="js/bundle.js"></script>
+
+<script src="js/main.js?ver=1.1.0"></script>
+
+</html>
+
+
+<script>
+  $('body').on("load", "div", function () {
+    alert('123')
+
+    setTimeout(function () {
+
+      $('img').hide();
+    }, 3000)
+  });
+
+</script>
+
+
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 355,
+        "density": {
+          "enable": true,
+          "value_area": 789.1476416322727
+        }
+      },
+      "color": {
+        "value": "#ffffff"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.48927153781200905,
+        "random": false,
+        "anim": {
+          "enable": true,
+          "speed": 0.2,
+          "opacity_min": 0,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 2,
+        "random": true,
+        "anim": {
+          "enable": true,
+          "speed": 2,
+          "size_min": 0,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": false,
+        "distance": 150,
+        "color": "#ffffff",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 0.2,
+        "direction": "none",
+        "random": true,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "bubble"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 400,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 83.91608391608392,
+          "size": 1,
+          "duration": 3,
+          "opacity": 1,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
+  });
+</script>
