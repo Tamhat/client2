@@ -101,7 +101,7 @@ export default class Footer extends Component {
                       discovery, where every trade is a step towards your
                       financial goals.
                     </div>
-                    {/* <ul class="iq-media-blog iq-mt-30 float-start"> */}
+                    <ul class="iq-media-blog iq-mt-30 float-start">
                       {/* <li>
                         <a
                           href="https://www.instagram.com/accounts/login/?next=/platinx.exchange/"
@@ -110,10 +110,10 @@ export default class Footer extends Component {
                           <i class="fab fa-instagram"></i>
                         </a>
                       </li> */}
-                      {/* <li>
+                      <li>
                         <a
                           target="_blank"
-                          href="https://twitter.com/Jexiexchange"
+                          href="/"
                           class="rounded"
                         >
                           <i class="fab fa-twitter"></i>
@@ -123,7 +123,7 @@ export default class Footer extends Component {
                         <a
                           target="_blank"
 
-                          href="https://www.tiktok.com/@jexiexchange_official"
+                          href="/"
                           class="rounded"
                         >
                           <i class="fab fa-tiktok"></i>
@@ -133,7 +133,7 @@ export default class Footer extends Component {
                         <a
                           target="_blank"
 
-                          href="https://www.instagram.com/jexiexchange/"
+                          href="/"
                           class="rounded"
                         >
                           <i class="fab fa-instagram"></i>
@@ -143,13 +143,13 @@ export default class Footer extends Component {
                         <a
                           target="_blank"
 
-                          href="https://t.me/Jexiexchange"
+                          href="/"
                           class="rounded"
                         >
                           <i class="fab fa-telegram"></i>
                         </a>
                       </li>
-                    </ul> */}
+                    </ul>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 iq-contact iq-mtb-90  footer-menu-list">
