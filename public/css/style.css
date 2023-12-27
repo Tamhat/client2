@@ -4933,6 +4933,7 @@ button.close span {
   border-radius: 6px;
 }
 
+
 .send-btn img {
   width: 20px;
   height: 20px;
@@ -5660,7 +5661,7 @@ img.refresh_icon {
 input[placeholder],
 [placeholder],
 *[placeholder] {
-  color: #000000 !important;
+  color: #000000;
 }
 
 ::placeholder {
@@ -5704,4 +5705,8 @@ input[placeholder],
 
 img.crypt-star.pr-1.new-star {
   width: 15px;
+}
+
+.crypt-dark .make-text-white input[placeholder], [placeholder], *[placeholder]{
+  color: white!important
 }

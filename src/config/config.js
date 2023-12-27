@@ -22,7 +22,7 @@ const config = {
   imageUrl: 'https://jexiexchange.com:8010/api/uploads/',
   apiUrl: "https://jexiexchange.com:8010/api",
   coinImageUrl: 'images/coins/',
-  websiteUrl: 'https://jexiexchange.com/',
+  websiteUrl: '/',
   HttpOnly: false,
   Secure:false
 

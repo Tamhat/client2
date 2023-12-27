@@ -2899,7 +2899,7 @@ export default class exchange extends Component {
                               name="buy_price"
                               onChange={this.onChange}
                               value={this.state.buy_price}
-                              className="form-control"
+                              className="form-control make-text-white"
                               placeholder="0.02323476"
                               disabled={
                                 this.state.isMarket === 1 ? true : false

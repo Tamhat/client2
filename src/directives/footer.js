@@ -101,7 +101,7 @@ export default class Footer extends Component {
                       discovery, where every trade is a step towards your
                       financial goals.
                     </div>
-                    <ul class="iq-media-blog iq-mt-30 float-start">
+                    {/* <ul class="iq-media-blog iq-mt-30 float-start"> */}
                       {/* <li>
                         <a
                           href="https://www.instagram.com/accounts/login/?next=/platinx.exchange/"
@@ -110,7 +110,7 @@ export default class Footer extends Component {
                           <i class="fab fa-instagram"></i>
                         </a>
                       </li> */}
-                      <li>
+                      {/* <li>
                         <a
                           target="_blank"
                           href="https://twitter.com/Jexiexchange"
@@ -149,7 +149,7 @@ export default class Footer extends Component {
                           <i class="fab fa-telegram"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 iq-contact iq-mtb-90  footer-menu-list">
@@ -233,7 +233,7 @@ export default class Footer extends Component {
 
                       {/* <a href="https://mail.google.com/mail/u/0/?fs=1&amp;to=support@platinx.exchange&amp;tf=cm" target="_blank"><i class="fa fa-angle-right me-2" aria-hidden="true"></i>Support</a> */}
 
-                      <a href="https://mail.google.com/mail/u/0/?fs=1&amp;to=contact@jexiexchange.com&amp;tf=cm" target="_blank" className="information">
+                      <a href="https://mail.google.com/mail/u/0/?fs=1&amp;to=support@royalbit.exchange&amp;tf=cm" target="_blank" className="information">
                         <i
                           class="fa fa-angle-right me-2"
                           aria-hidden="true"
@@ -251,7 +251,7 @@ export default class Footer extends Component {
                       <i class="fas fa-envelope" aria-hidden="true"></i>
                       <div class="content ">
                         <div class=" title ">Mail</div>{" "}
-                        support.royalbit.exchange 
+                        support@royalbit.exchange
                       </div>
                     </div>
                   </div>
