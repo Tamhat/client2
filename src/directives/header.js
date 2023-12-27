@@ -191,12 +191,12 @@ export default class Header extends Component {
                           </a>
                           <div class="dropdown-content">
                             <Link to={`${config.baseUrl}wallet`}>Wallet </Link>
-                            <Link to={`${config.baseUrl}withdraw`}>
+                            {/* <Link to={`${config.baseUrl}withdraw`}>
                               Withdraw INR
                             </Link>
                             <Link to={`${config.baseUrl}depositform`}>
                               Deposit INR
-                            </Link>
+                            </Link> */}
                             <Link to={`${config.baseUrl}transfer`}>
                               Transfer
                             </Link>
