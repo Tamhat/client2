@@ -308,8 +308,11 @@ export default class extends Component {
               <h1 className="xl:text-4xl md:text-3xl text-2xl font-bold">Worldwide Leading Digital Coin Trading Website</h1>
               <p className="md:text-lg text-base sl-pt-2 sl-pb-6">Royalbit Exchange: A Global Era Trading Platform for <br />Collecting Various Coins with Fiat Currency
               </p>
-              <button className="inline-flex sl-mr-2 items-center uppercase md:text-base text-sm font-medium sl-px-4 sl-py-2 bg-teal-400 rounded-sm hover:bg-teal-700 sl-animated-lg">sing up for free <img className="w-4 sl-ml-2" src={rightArrow} alt="" /></button>
-              <button className="inline-flex items-center uppercase md:text-base text-sm font-medium sl-px-4 sl-py-2 bg-neutral-800 rounded-sm hover:bg-neutral-950 sl-animated-lg">market <img className="w-4 sl-ml-2" src={rightArrow} alt="" /></button>
+              <a href="https://royalbit.exchange/signup">
+                 <button className="inline-flex sl-mr-2 items-center uppercase md:text-base text-sm font-medium sl-px-4 sl-py-2 bg-teal-400 rounded-sm hover:bg-teal-700 sl-animated-lg" href="https://royalbit.exchange/signup">sing up for free <img className="w-4 sl-ml-2" src={rightArrow} alt="" /></button>
+              </a>
+              <a href="https://royalbit.exchange/Exchange"><button className="inline-flex items-center uppercase md:text-base text-sm font-medium sl-px-4 sl-py-2 bg-neutral-800 rounded-sm hover:bg-neutral-950 sl-animated-lg">market <img className="w-4 sl-ml-2" src={rightArrow} alt="" /></button>
+              </a>
             </div>
             <div className="xl:w-2/5 lg:w-1/2 w-full lg:sl-order-2- sl-order-1-"><img className="lg:w-full sm:w-1/2 mx-auto" src={mobile} alt="" /></div>
           </div>
