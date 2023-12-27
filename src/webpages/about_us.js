@@ -133,7 +133,7 @@ export default class about_us extends Component {
               <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>Connect With Us</h2>
               <p style={{margin:5}}>
                 Have questions or suggestions? We value your feedback. Reach out to us at{' '}
-                <a href="mailto:contact@jexiexchange.com">contact@jexiexchange.com</a>. Join us on social media
+                <a href="mailto:contact@jexiexchange.com">contact@royalbitexchange.com</a>. Join us on social media
                 to stay updated on the latest news, features, and promotions.
               </p>
 

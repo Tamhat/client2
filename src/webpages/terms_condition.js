@@ -164,7 +164,7 @@ export default class terms_condition extends Component {
               <section>
                 <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>Contact Us</h2>
                 <p style={{ margin: 5 }}>
-                  If you have any questions or concerns about these Terms and Conditions, please contact us at [contact@jexiexchange.com].
+                  If you have any questions or concerns about these Terms and Conditions, please contact us at [contact@royalbitexchange.com].
                 </p>
               </section>
             </div>

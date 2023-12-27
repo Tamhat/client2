@@ -76,7 +76,7 @@ export default class privacy_policy extends Component {
               <p style={{ margin: 5 }}>Last Updated: {new Date().getFullYear()}</p>
 
               <p style={{ margin: 5 }}>
-              Royalbit Exchange Exchange ("us," "we," or "our") operates the website [www.jexiexchange.com] and provides
+              Royalbit Exchange Exchange ("us," "we," or "our") operates the website [www.royalbitexchange.com] and provides
                 cryptocurrency exchange services. This Privacy Policy outlines our policies regarding the collection,
                 use, and disclosure of personal information when you use our services.
               </p>
@@ -125,7 +125,7 @@ export default class privacy_policy extends Component {
 
               <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>5. Your Rights</h2>
               <p style={{ margin: 5 }}>
-                You have the right to access, correct, or delete your personal information. If you have any concerns about your privacy, please contact us at [support@jexiexchange.com].
+                You have the right to access, correct, or delete your personal information. If you have any concerns about your privacy, please contact us at [support.royalbit.exchange ].
               </p>
 
               <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>6. Changes to This Privacy Policy</h2>
@@ -135,7 +135,7 @@ export default class privacy_policy extends Component {
 
               <h2 style={{ textDecoration: 'underline', color: '#38a0a1', margin: 5 }}>Contact Us</h2>
               <p style={{ margin: 5 }}>
-                If you have questions or concerns about this Privacy Policy, please contact us at [contact@jexiexchange.com].
+                If you have questions or concerns about this Privacy Policy, please contact us at [contact@royalbitexchange.com].
               </p>
             </div>
 

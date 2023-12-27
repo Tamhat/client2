@@ -251,7 +251,7 @@ export default class Footer extends Component {
                       <i class="fas fa-envelope" aria-hidden="true"></i>
                       <div class="content ">
                         <div class=" title ">Mail</div>{" "}
-                        support@jexiexchange.com
+                        support.royalbit.exchange 
                       </div>
                     </div>
                   </div>
